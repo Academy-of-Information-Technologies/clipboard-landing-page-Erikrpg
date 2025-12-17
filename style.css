@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+header {
+    min-height: 263px;
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.history-section {
+    max-width: 730px;
+    text-align: center;
+}
+
+.history-section>h1 {
+    font-size: 46px;
+    font-weight: 600;
+    color: #4c545c;
+}
+
+.history-section>p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    line-height: 30px;
+    color: #9eabb2;
+    margin-bottom: 48px;
+    margin-top: 16px;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 13px 36px;
+    border-radius: 28px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: #26bba4;
+    box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.15) inset, 0 10px 20px 0 rgba(137, 229, 199, 0.5);
+}
+
+.btn-secondary {
+    background-color: #6174ff;
+    box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.15) inset, 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.keep-track {
+    max-width: 730px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.keep-track>h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4c545c;
+}
+
+.keep-track>p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #9eabb2;
+    line-height: 30px;
+    margin-top: 19px;
+    letter-spacing: 0.135px;
+}
+
+.mac {
+    display: flex;
+    margin-top: 124px;
+    gap: 109px;
+    align-items: center;
+}
+
+.mac-img {
+    width: 680px;
+}
+
+.mac-img>img {
+    width: 100%;
+}
+
+.mac-right {
+    max-width: 319px;
+}
+
+.mac-right>h2 {
+    color: #4c545c;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.391px;
+}
+
+.mac-right>p {
+    color: #9eabb2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.12px;
+    margin-bottom: 53px;
+}
+
+#last {
+    margin-bottom: 0;
+}
+
+.tablet {
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tablet>h2 {
+    color: #4c545c;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.587px;
+    margin-bottom: 19px;
+}
+
+.tablet>p {
+    width: 730px;
+    color: #9eabb2;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin-bottom: 112px;
+    text-align: center;
+}
+
+.tablet>img {
+    margin-top: 112px;
+}
+
+.supercharge>h2 {
+    color: #4c545c;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.supercharge>p {
+    color: #9eabb2;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 76px;
+}
+
+.cards {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+
+}
+
+
+
+.card {
+    min-height: 216px;
+    max-width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+
+}
+
+
+
+.card>h3 {
+    margin-top: 40px;
+    margin-bottom: 16px;
+    color: #4c545c;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card>p {
+    color: #9eabb2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.12px;
+}
+
+.companies {
+    min-height: 100px;
+    margin-top: 163px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 95px;
+    margin-bottom: 161px;
+
+
+}
+
+footer {
+    min-height: 150px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+footer>img {
+    width: 55px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    width: 540px;
+    flex-wrap: wrap;
+}
+
+
+nav>span {
+    display: inline-block;
+    color: #4c545c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    width: 160px;
+}
